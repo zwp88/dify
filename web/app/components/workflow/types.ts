@@ -261,6 +261,7 @@ export type Memory = {
 export enum VarType {
   string = 'string',
   number = 'number',
+  integer = 'integer',
   secret = 'secret',
   boolean = 'boolean',
   object = 'object',
@@ -452,6 +453,7 @@ export enum VersionHistoryContextMenuOptions {
   restore = 'restore',
   edit = 'edit',
   delete = 'delete',
+  exportDSL = 'exportDSL',
   copyId = 'copyId',
 }
 
